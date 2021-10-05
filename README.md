@@ -2,8 +2,11 @@
 # Software Design and Development Homework
 
 Student name: Nguyễn Đức Quyền
+
 Student ID: 20183617
+
 Class: Information Technology K63
+
 Module: Talented program
 
 # Lab_0
