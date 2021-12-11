@@ -84,17 +84,46 @@ public class PlaceOrderController extends BaseController{
     
     public boolean validatePhoneNumber(String phoneNumber) {
     	// TODO: your work
-    	return false;
+    	// check the length of the phone number
+    	if(phoneNumber.length() != 10) return false;
+    	
+    	// check if the phone number start with "0"
+    	if (!phoneNumber.startsWith("0")) return false;
+    	
+    	// check the format of the phone number
+    	try {
+    		Integer.parseInt(phoneNumber);
+    	}catch(NumberFormatException e){
+    		return false;
+    	}
+    	
+    	return true;
     }
     
     public boolean validateName(String name) {
     	// TODO: your work
-    	return false;
+    	
+    	//check if the name is null
+    	if(name == null) return false;
+    	
+    	// check if the name contains any number or special character
+    	String temp = name.replaceAll("[*a-zA-Z ]", "");
+    	if(temp.length() != 0) return false;
+    	
+    	return true;
     }
     
     public boolean validateAddress(String address) {
     	// TODO: your work
-    	return false;
+    	
+    	// check if the address is null
+    	if(address == null) return false;
+    	
+    	// check if the address contains any number or special character
+    	String temp = address.replaceAll("[*a-zA-Z0-9 ]", "");
+    	if(temp.length() != 0) return false;
+    	
+    	return true;
     }
     
 
