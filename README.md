@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # TKXDPM.KSTN.20211.20183617.NguyenDucQuyen
 # Software Design and Development Homework
 
