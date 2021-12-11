@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # TKXDPM.KSTN.20211.20183617.NguyenDucQuyen
 # Software Design and Development Homework
 
@@ -27,3 +28,4 @@ Module: Talented program
 # Lab_3
 ## Tasks
 To be continue..
+
